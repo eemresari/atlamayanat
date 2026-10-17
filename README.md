@@ -19,7 +19,7 @@ These are not demos: each exhibit runs unattended as a kiosk, works fully offlin
 - **Local-first AI** — conversational exhibit on a local 4B LLM (Ollama · Qwen3), Whisper speech-to-text, offline Turkish TTS
 - **Real-time web front ends** — WebSocket bridges from Python to browser renderers (WebGL2, matter.js)
 - **Mobile & ML** — React Native + Expo app, LSTM blood-glucose forecasting with TensorFlow Lite export
-- **Game development** — Unity 6 (URP 2D), pattern-driven Python game engine
+- **Hardware & games** — ESP32-S3 solenoid firmware, Unity 6 (URP 2D), Rust/Tauri desktop tooling
 
 ## Featured projects
 
@@ -28,10 +28,12 @@ These are not demos: each exhibit runs unattended as a kiosk, works fully offlin
 | 🧪 **[KimyaLab](https://github.com/eemresari/Kimya_Lab)** | Projection-mapped chemistry game: visitors place real black blocks on a board, the camera turns them into invisible physics walls that steer compound balls into a beaker | Python · OpenCV · WebSocket · matter.js |
 | 🤖 **[AICan](https://github.com/eemresari/AICan)** | Offline conversational AI exhibit for Konya Science Center — visitor speaks, a local LLM picks a gesture, a 96×96 software LED matrix performs it and answers aloud | Python · Flask · Ollama (Qwen3 4B) · Whisper · Piper TTS |
 | 🎨 **[SprayTarih](https://github.com/eemresari/SprayTarih)** | Interactive "spray-paint" wall: hand tracking reveals full-colour historical photos under a faded wall — every visitor gets a beautiful result | Python · MediaPipe · WebSocket · WebGL2 |
-| 🖐️ **[Matematik Avı](https://github.com/eemresari/Matematik_Avi)** | Gesture-controlled wall game: a spotlight follows the player's hand, a fist drops a net to catch the hidden target | Python · MediaPipe · homography calibration · Web |
+| 🖐️ **[Matematik Avı](https://github.com/eemresari/Matematik_Avi)** | Hands-free math game on a wall projection: a lens follows the player's hand to reveal hidden answers, a closed fist picks the right one | Python · MediaPipe · homography calibration · Web |
 | 🩺 **[HonyAI](https://github.com/eemresari/HonyAI)** | Diabetes companion app with lab-report parsing; paired LSTM glucose-forecast model (integration in progress) | React Native · Expo · TypeScript · Express · SQLite |
-| 💥 **[ELEMENT-BLAST](https://github.com/eemresari/ELEMENT-BLAST)** | 3v3 turn-based elemental combat engine built around GoF design patterns, with CI | Python · GitHub Actions |
-| ⚔️ **[ULAK](https://github.com/eemresari/ULAK)** | 2D side-scrolling action game rooted in Anatolian themes — greybox prototype | Unity 6 · URP 2D · C# |
+| 🥁 **[Çalgı Çengi](https://github.com/eemresari/calgi-cengi)** | Touchscreen rhythm sequencer that strikes real percussion instruments with solenoids | React · Web Serial · ESP32-S3 firmware (C++) |
+| ⚔️ **[ULAK](https://github.com/eemresari/ULAK)** | 2D pixel-art action game rooted in Turkic themes — horse-riding stage, dialogue, multi-phase boss fight | Unity 6 · URP 2D · C# |
+| 💥 **[ELEMENT-BLAST](https://github.com/eemresari/ELEMENT-BLAST)** | 3v3 turn-based elemental combat engine refactored around GoF design patterns, with CI | Python · GitHub Actions |
+| 🎛️ **[neon-flyout](https://github.com/eemresari/neon-flyout)** | Replacement Windows media flyout that reacts to playback state, not key presses | Rust · Tauri v2 |
 
 ## Tech stack
 
